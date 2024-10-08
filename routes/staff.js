@@ -26,7 +26,7 @@ router.post("/login", async (req, res) => {
                         return res.status(200).json({
                             token,
                             message: "staff login success",
-                            hotel_group
+                            hotel_group: hotel_group
                         })
                     }
                 }
